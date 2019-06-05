@@ -244,7 +244,7 @@ for i, id := range ids {
 }
 ~~~
 
-if you not want to use index use `-` as id 
+if you not want to use index use `_` (underscore) as id 
 
 ~~~go
 not using index
