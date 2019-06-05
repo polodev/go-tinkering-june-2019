@@ -334,7 +334,7 @@ type Person struct {
 
 ~~~go
 person1 := Person{firstName: "Samantha", lastName: "Saint", city: "New York", gender: "f", age: 26}
-// Alternative
+// Alternative // no need to write key
 person1 := Person{"Samantha", "Saint", "New York", "f", 26}
 ~~~
 
@@ -346,7 +346,7 @@ person1 := Person{"Samantha", "Saint", "New York", "f", 26}
 value receiver    
 
 ~~~go
-// require strconv pkg
+// required strconv pkg in our case. to make integer age to string
 func (p Person) greet() string {
   return "Hello my name is " + p.firstName + " " + p.lastName + " and I am " + strconv.Itoa(p.age)
 }
