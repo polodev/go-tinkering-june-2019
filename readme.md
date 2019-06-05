@@ -122,9 +122,9 @@ get the length of array or slices
 fmt.Println(len(fruitSlice))
 ~~~
 
-get the value 
+get the value in range 
 ~~~go
-// start and stops value
+// start:stop index value
 fmt.Println(fruitSlice[1:3])
 ~~~
 
