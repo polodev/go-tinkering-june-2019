@@ -1,14 +1,16 @@
 package main
 
-import (
-	"fmt"
-	"math"
+import "fmt"
 
-	"github.com/polodev/go_crash_course/03_packages/strutil"
-)
+func greeting(name string) string {
+	return "Hello " + name
+}
+
+func getSum(num1 int, num2 int) int {
+	return num1 + num2
+}
 
 func main() {
-	fmt.Println("Hello world")
-	fmt.Println(math.Floor(2.7))
-	fmt.Println(strutil.Reverse("olleh"))
+	fmt.Println(greeting("Shibu"))
+	fmt.Println(getSum(3, 3))
 }
