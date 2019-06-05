@@ -105,9 +105,9 @@ fruitArr[0] = "Apple"
 fruitArr[1] = "Orange"
 ~~~
 
-Declare and assign in same time    
+Declare and assign array in same time    
 ~~~go
-//fruitArr := [2]string{"Apple", "Orange"}
+fruitArr := [2]string{"Apple", "Orange"}
 ~~~
 
 ### Slice
