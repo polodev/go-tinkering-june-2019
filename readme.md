@@ -38,7 +38,7 @@ name := "Polo dev"
 const isCool = true
 ~~~
 
-default int and float is `float64`. For `float32` we have to explicit      
+default float is `float64`. For `float32` we have to explicit      
 
 
 ~~~go
