@@ -204,6 +204,7 @@ Declare and assign value
 
 ~~~go
 // Define map
+// key is [string] and  value is string 
 emails := make(map[string]string)
 // assign key value
 emails["bob"] = "bob@gmail.com"
